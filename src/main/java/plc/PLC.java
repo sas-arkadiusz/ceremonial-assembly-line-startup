@@ -1,9 +1,8 @@
 package plc;
 
 public class PLC {
-	private PLCMode plcMode = PLCMode.DISABLED;
+	private PLCMode plcMode;
 
-	public PLC() {};
 	public PLC(PLCMode plcMode) {
 		this.plcMode = plcMode;
 	}
