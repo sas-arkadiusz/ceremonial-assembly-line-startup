@@ -16,7 +16,7 @@ public class AssemblyLineStartupAlgorithm {
 		final int LAST_EMPLOYEE_NUMBER = numberOfEmployees + 1;
 		final int INDEX_OF_FIRST_PLC_THAT_HAS_TO_BE_INCLUDED_IN_CALCULATIONS = 1;
 
-		if(isInputInvalid(numberOfPLCs, numberOfEmployees)) return NUMBER_OF_PLCS_IN_RUN_MODE_AT_THE_BEGINNING;
+		if (isInputInvalid(numberOfPLCs, numberOfEmployees)) return NUMBER_OF_PLCS_IN_RUN_MODE_AT_THE_BEGINNING;
 
 		final List<PLC> allPLCs = placeAllPLCsInRunMode(numberOfPLCs);
 		IntStream.range(EMPLOYEE_NUMBER_FROM_WHOM_CALCULATIONS_BEGINS, LAST_EMPLOYEE_NUMBER)
