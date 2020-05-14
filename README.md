@@ -17,7 +17,7 @@ This repository contains application that resolve _Ceremonial Assembly Line Star
 * To build the project use following command: `mvn clean package`.
 
 3. Running
-* After building the application run the following command to start it: `target/ceremonial-assembly-line-startup-1.0.jar`.
+* After building the application run the following command to start it: `java -jar target/ceremonial-assembly-line-startup-1.0.jar`.
 * You can also start the application with following command: `mvn clean compile exec:java`. <br>
 * Linux users can start the application by double-click `run.sh`. 
 
